@@ -1,5 +1,4 @@
 import React from "react";
-import gif from "../../public/Navotsav.gif";
 
 export const Tagline = () => {
   return (
@@ -7,7 +6,7 @@ export const Tagline = () => {
       {/* Background GIF */}
       <div className="absolute inset-0">
         <img
-          src={gif}
+          src="./Navotsav.gif"
           alt="Event Background"
           className="w-full h-full object-cover"
         />
