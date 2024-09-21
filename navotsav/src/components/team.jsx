@@ -28,7 +28,7 @@ const TeamMembers = () => {
     <div className="flex bg-white p-8">
       <div className="flex-1">
         <div className="flex items-center justify-center mb-24">
-          <h2 className="text-6xl ml-6 font-bold text-center text-black ">
+          <h2 className="text-6xl ml-24 font-bold text-center text-black ">
             Speakers
           </h2>
           <div className="hidden md:flex flex-grow h-1 mx-48 bg-gradient-to-r from-green-500 via-orange-500 to-blue-500"></div>
