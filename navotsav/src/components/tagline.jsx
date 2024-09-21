@@ -14,7 +14,7 @@ export const Tagline = () => {
       </div>
 
       {/* Content Overlay */}
-      <div className="relative text-center px-6 space-y-2 z-10">
+      <div className="relative text-center px-6 space-y-3 z-10">
         {/* Navotsav Heading */}
         <div className="mb-96">
           <h1
