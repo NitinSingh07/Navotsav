@@ -39,7 +39,7 @@ export const Tagline = () => {
         </h1>
 
         {/* CTA Button */}
-        <button className="bg-blue-600 hover:bg-pink-500 text-white py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+        <button className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
           Register Now
         </button>
 
