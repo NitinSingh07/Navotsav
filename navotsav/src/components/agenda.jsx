@@ -16,10 +16,10 @@ export const EventAgenda = () => {
   ];
 
   return (
-    <section className="bg-gray-100 text-gray-800 py-16">
+    <section className="bg-green-100 text-gray-800 py-16">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-center mb-24">
-          <h2 className="text-6xl ml-6 font-bold text-center text-indigo-800 ">
+          <h2 className="text-6xl ml-6 font-bold text-center text-green-800 ">
             Agenda
           </h2>
           <div className="hidden md:flex flex-grow h-1 mx-48 bg-gradient-to-r from-green-500 via-orange-500 to-blue-500"></div>
@@ -33,7 +33,7 @@ export const EventAgenda = () => {
               key={index}
               className="flex justify-between items-center bg-white p-6 rounded-lg shadow-lg transition-transform duration-300 hover:shadow-xl transform hover:-translate-y-2 hover:bg-indigo-50"
             >
-              <span className="text-xl font-semibold text-indigo-600">
+              <span className="text-xl font-semibold text-green-600">
                 {item.time}
               </span>
               <span className="text-xl text-gray-800">{item.title}</span>
