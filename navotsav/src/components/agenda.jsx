@@ -16,7 +16,7 @@ export const EventAgenda = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-r from-purple-100 via-indigo-200 to-blue-100 text-gray-800 py-12">
+    <section className="bg-gradient-to-r from-gray-100 via-indigo-200 to-gray-100 text-gray-800 py-12">
       <div className="container mx-auto px-6">
         <h2 className="text-5xl font-bold text-center mb-8 text-indigo-700">
           Event Agenda

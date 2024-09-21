@@ -4,7 +4,6 @@ import { Tagline } from "./components/tagline";
 import { EventDetails } from "./components/Event";
 // import {FeedbackForm}from "./components/feebackForm"
 
-
 const App = () => {
   return (
     <Router>
