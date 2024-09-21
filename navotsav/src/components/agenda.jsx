@@ -16,21 +16,27 @@ export const EventAgenda = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-r from-gray-100 via-indigo-200 to-gray-100 text-gray-800 py-12">
+    <section className="bg-gray-100 text-gray-800 py-16">
       <div className="container mx-auto px-6">
-        <h2 className="text-5xl font-bold text-center mb-8 text-indigo-700">
-          Event Agenda
-        </h2>
-        <div className="space-y-4">
+        <div className="flex items-center justify-center mb-24">
+          <h2 className="text-6xl ml-6 font-bold text-center text-indigo-800 ">
+            Agenda
+          </h2>
+          <div className="hidden md:flex flex-grow h-1 mx-48 bg-gradient-to-r from-green-500 via-orange-500 to-blue-500"></div>
+          <h2 className="text-8xl ml-6 font-bold text-center text-gray-200">
+            Agenda
+          </h2>
+        </div>
+        <div className="space-y-6">
           {agendaItems.map((item, index) => (
             <div
               key={index}
-              className="flex justify-between bg-white p-4 rounded-lg shadow-md transition-transform duration-300 hover:shadow-lg transform hover:-translate-y-1"
+              className="flex justify-between items-center bg-white p-6 rounded-lg shadow-lg transition-transform duration-300 hover:shadow-xl transform hover:-translate-y-2 hover:bg-indigo-50"
             >
-              <span className="text-lg font-semibold text-indigo-600">
+              <span className="text-xl font-semibold text-indigo-600">
                 {item.time}
               </span>
-              <span className="text-lg text-gray-700">{item.title}</span>
+              <span className="text-xl text-gray-800">{item.title}</span>
             </div>
           ))}
         </div>
