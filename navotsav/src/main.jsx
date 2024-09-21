@@ -11,6 +11,7 @@ import { EventDetails } from "./components/Events.jsx";
 // import {Payment} from "./components/payment.jsx"
  import Payment from "./components/payment.jsx";
  import Moto from "./components/moto.jsx";
+import Footer from "./components/footer.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -23,5 +24,6 @@ createRoot(document.getElementById("root")).render(
     {/* <Payment/> */}
     <Payment/>
    
+    <Footer />
   </StrictMode>
 );

@@ -29,69 +29,72 @@ const FeedbackForm = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-orange-400 via-pink-500 to-blue-400 p-8">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-50 px-4 md:px-8 py-8">
       {/* Feedback Title */}
-      <h2 className="text-7xl font-extrabold  text-gray-100 mb-8 self-start ml-24">
+      <h2 className="text-3xl  self-start ml-24 sm:text-4xl md:text-5xl lg:text-6xl mb-10 font-extrabold text-gray-900 text-center drop-shadow-lg">
         Feedback Form
       </h2>
 
       {/* Form Container */}
-      <div className="max-w-2xl w-full bg-white p-12 transition ease-in-out">
+      <div className="max-w-full sm:max-w-md w-full bg-white rounded-xl shadow-2xl p-6 md:p-10 ">
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-2">
-            <label className="block text-xl font-semibold text-gray-800">
-              Name
+            <label className="block text-lg md:text-xl font-medium text-gray-700">
+              Full Name
             </label>
             <input
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="w-full p-4 border border-gray-300  focus:outline-none focus:ring-1 focus:ring-black shadow-lg transition duration-300"
-              placeholder="Enter your name"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300"
+              placeholder="Your Name"
             />
           </div>
+
           <div className="space-y-2">
-            <label className="block text-xl font-semibold text-gray-800">
-              Email
+            <label className="block text-lg md:text-xl font-medium text-gray-700">
+              Email Address
             </label>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="w-full p-4 border border-gray-300  focus:outline-none focus:ring-1 focus:ring-black shadow-lg transition duration-300"
-              placeholder="Enter your email"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300"
+              placeholder="Your Email"
             />
           </div>
+
           <div className="space-y-2">
-            <label className="block text-xl font-semibold text-gray-800">
-              Message
+            <label className="block text-lg md:text-xl font-medium text-gray-700">
+              Your Message
             </label>
             <textarea
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
               rows={6}
-              className="w-full p-4 border border-gray-300 focus:outline-none focus:ring-1 focus:ring-black shadow-lg transition duration-300"
-              placeholder="Write your message here"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300"
+              placeholder="Type your message here..."
             ></textarea>
           </div>
 
           <button
             type="submit"
-            className="w-full bg-white-500 text-black font-bold text-lg p-4  shadow-xl focus:ring-2 focus:ring-blue-500 transition duration-300 transform hover:scale-105"
+            className="w-full bg-gradient-to-r from-green-500 to-blue-600 text-white font-semibold text-lg p-4 rounded-lg shadow-lg focus:ring-4 focus:ring-blue-300 transition duration-300 hover:bg-gradient-to-l transform hover:scale-105"
           >
-            Submit
+            Send Feedback
           </button>
 
+          {/* Success and Error Messages */}
           {success && (
-            <p className="mt-4 text-green-500 text-center text-lg font-semibold">
+            <p className="mt-4 text-green-600 text-center text-lg font-semibold">
               Thank you for your feedback!
             </p>
           )}
           {error && (
-            <p className="mt-4 text-red-500 text-center text-lg font-semibold">
+            <p className="mt-4 text-red-600 text-center text-lg font-semibold">
               There was an error submitting your feedback. Please try again.
             </p>
           )}
