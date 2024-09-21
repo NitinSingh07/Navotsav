@@ -21,6 +21,16 @@ const teamMembers = [
     position: "UI/UX Designer",
     photo: "https://via.placeholder.com/150",
   },
+  {
+    name: "David Wilson",
+    position: "UI/UX Designer",
+    photo: "https://via.placeholder.com/150",
+  },
+  {
+    name: "David Wilson",
+    position: "UI/UX Designer",
+    photo: "https://via.placeholder.com/150",
+  },
 ];
 
 const TeamMembers = () => {
@@ -37,13 +47,13 @@ const TeamMembers = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {teamMembers.map((member) => (
             <div key={member.name} className="flex flex-col items-center">
               <img
                 src={member.photo}
                 alt={member.name}
-                className="w-96 h-full mb-4 shadow-md" // Increased size
+                className="w-80 h-full mb-4 shadow-md" // Increased size
               />
               <h3 className="text-xl font-semibold text-blue-500">
                 {member.name}
