@@ -46,7 +46,7 @@ export const Tagline = () => {
       </div>
 
       {/* Logo (Hidden on mobile, visible on larger screens) */}
-      <div className="absolute left-4 top-4 p-4 hidden md:block">
+      <div className="absolute left-1 top-1 p-4 hidden md:block">
         <img
           src="./logo.jpg"
           alt="Event Logo"
