@@ -10,7 +10,7 @@ export const EventDetails = () => {
           {/* Left Div: Text Details */}
           <div className="md:w-1/2 mb-6 md:mb-0 flex flex-col justify-center">
             <div className="text-center md:text-left mb-12 space-y-4">
-              <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-700">
+              <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-700">
                 U.P. STATE NAVODAYA ALUMNI OPEN MEET 2024
               </h1>
               <p className="text-blue-800 text-lg">
@@ -51,12 +51,6 @@ export const EventDetails = () => {
                   University, Greater Noida (U.P.)
                 </div>
               </div>
-
-              {/* Event Description */}
-              <p className="text-blue-700 text-md leading-relaxed mt-6">
-                Connect with old friends and make new ones. Celebrate our shared
-                experiences and explore opportunities for future collaborations.
-              </p>
             </div>
           </div>
 
