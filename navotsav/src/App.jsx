@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Tagline } from "./components/tagline";
 import { EventDetails } from "./components/Event";
+// import {FeedbackForm}from "./components/feebackForm"
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Tagline />} />
         <Route path="/event" element={<EventDetails/>} />
+        {/* <Route path="/feedback" element={<FeedbackForm />} /> */}
         
       </Routes>
     </Router>
