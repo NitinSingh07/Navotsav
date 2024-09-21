@@ -32,7 +32,7 @@ const FeedbackForm = () => {
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-orange-400 via-pink-500 to-blue-400 p-8">
       {/* Feedback Title */}
       <h2 className="text-7xl font-extrabold  text-gray-100 mb-8 self-start ml-24">
-        Feedback
+        Feedback Form
       </h2>
 
       {/* Form Container */}
