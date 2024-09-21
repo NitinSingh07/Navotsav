@@ -60,7 +60,7 @@ export const EventDetails = () => {
               <img
                 src="/event.jpg"
                 alt="Event"
-                className="w-full h-full object-cover border-2 rounded-full border-blue-600 transition-transform duration-300 transform hover:scale-105"
+                className="w-full h-full object-cover border-2 rounded-full border-blue-600 "
               />
             </div>
           </div>

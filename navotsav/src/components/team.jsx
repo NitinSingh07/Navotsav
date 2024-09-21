@@ -20,7 +20,17 @@ const teamMembers = [
     name: "David Wilson",
     position: "UI/UX Designer",
     photo: "https://via.placeholder.com/150",
-  }
+  },
+  {
+    name: "David Wilson",
+    position: "UI/UX Designer",
+    photo: "https://via.placeholder.com/150",
+  },
+  {
+    name: "David Wilson",
+    position: "UI/UX Designer",
+    photo: "https://via.placeholder.com/150",
+  },
 ];
 
 const TeamMembers = () => {
