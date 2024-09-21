@@ -29,16 +29,16 @@ const FeedbackForm = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-orange-500 via-blue-400 to-green-500 p-4 md:p-8">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-50 px-4 md:px-8 py-8">
       {/* Feedback Title */}
-      <h2 className="text-4xl md:text-6xl self-start ml-24 font-extrabold text-gray-100 mb-8 text-center drop-shadow-lg">
+      <h2 className="text-3xl  self-start ml-24 sm:text-4xl md:text-5xl lg:text-6xl mb-10 font-extrabold text-gray-900 text-center drop-shadow-lg">
         Feedback Form
       </h2>
 
       {/* Form Container */}
-      <div className="max-w-md w-full bg-white rounded-xl shadow-2xl p-6 md:p-10 ">
+      <div className="max-w-full sm:max-w-md w-full bg-white rounded-xl shadow-2xl p-6 md:p-10 ">
         <form onSubmit={handleSubmit} className="space-y-6">
-          <div className="space-y-3">
+          <div className="space-y-2">
             <label className="block text-lg md:text-xl font-medium text-gray-700">
               Full Name
             </label>
@@ -52,7 +52,7 @@ const FeedbackForm = () => {
             />
           </div>
 
-          <div className="space-y-3">
+          <div className="space-y-2">
             <label className="block text-lg md:text-xl font-medium text-gray-700">
               Email Address
             </label>
@@ -66,7 +66,7 @@ const FeedbackForm = () => {
             />
           </div>
 
-          <div className="space-y-3">
+          <div className="space-y-2">
             <label className="block text-lg md:text-xl font-medium text-gray-700">
               Your Message
             </label>
@@ -82,7 +82,7 @@ const FeedbackForm = () => {
 
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-green-500 to-blue-600 text-white font-semibold text-lg p-4 rounded-lg shadow-lg focus:ring-4 focus:ring-blue-300 transition duration-300 transform hover:scale-105"
+            className="w-full bg-gradient-to-r from-green-500 to-blue-600 text-white font-semibold text-lg p-4 rounded-lg shadow-lg focus:ring-4 focus:ring-blue-300 transition duration-300 hover:bg-gradient-to-l transform hover:scale-105"
           >
             Send Feedback
           </button>
