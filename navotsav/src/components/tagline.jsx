@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export const Tagline = () => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2025-01-07T00:00:00");
+    const eventDate = new Date("2025-01-01T00:00:00");
     const currentTime = new Date();
     const difference = eventDate - currentTime;
 
@@ -56,7 +56,7 @@ export const Tagline = () => {
 
       {/* Content Overlay */}
       <div className="relative text-center px-6 space-y-6 z-10">
-        <div className="mb-64 md:mb-80">
+        <div className="mb-64 md:mb-80 sm:mb-64">
           <h1
             className="text-6xl sm:text-8xl font-times mb-4 text-white"
             style={{
@@ -66,7 +66,7 @@ export const Tagline = () => {
           >
             Navotsav
           </h1>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl mb-8 text-black">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl md:mb-8 sm:mb-10 text-black">
             2024
           </h1>
         </div>
