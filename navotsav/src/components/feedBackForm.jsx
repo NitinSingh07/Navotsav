@@ -12,7 +12,7 @@ const FeedbackForm = () => {
     e.preventDefault();
 
     try {
-      await axios.post("https://formspree.io/f/xanwgjwg", {
+      await axios.post("https://formspree.io/f/mnnakzyn", {
         name,
         email,
         message,
