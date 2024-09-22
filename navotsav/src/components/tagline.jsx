@@ -18,11 +18,11 @@ export const Tagline = () => {
       </div>
 
       {/* Logo (Hidden on mobile, visible on larger screens) */}
-      <div className="absolute left-1 top-1 p-4 hidden md:block">
+      <div className="absolute left-32 top-1 p-4 hidden md:block">
         <img
-          src="./logo.jpg"
+          src="./logo.png"
           alt="Event Logo"
-          className="w-24 h-24 object-cover"
+          className="w-30 h-36 object-cover"
         />
       </div>
 
@@ -38,7 +38,7 @@ export const Tagline = () => {
           >
             Navotsav
           </h1>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl md:mb-8 sm:mb-10 text-black">
+          <h1 className="text-3xl font-medium sm:text-4xl md:text-5xl md:mb-8 sm:mb-10 text-black">
             2024
           </h1>
         </div>
