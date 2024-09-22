@@ -30,7 +30,7 @@ export const Tagline = () => {
       <div className="relative text-center px-6 space-y-6 z-10">
         <div className="mb-64 md:mb-80 sm:mb-64">
           <h1
-            className="text-6xl sm:text-8xl mb-4 text-white"
+            className="text-6xl font-extrabold font-times sm:text-8xl mb-4 text-white"
             style={{
               textShadow:
                 "0 0 10px rgba(0, 112, 255, 0.8), 0 0 20px rgba(0, 112, 255, 0.8)",
@@ -63,8 +63,6 @@ export const Tagline = () => {
 
         {/* Decorative Line */}
         <div className="h-1 w-32 sm:w-40 mx-auto bg-blue-600 rounded-lg"></div>
-
-      
       </div>
     </section>
   );
