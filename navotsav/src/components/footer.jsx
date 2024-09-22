@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -20,7 +15,7 @@ const Footer = () => {
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-6 md:mt-0">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=61560781570736"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-200 transition duration-200"
@@ -28,7 +23,7 @@ const Footer = () => {
               <FaFacebookF className="text-2xl" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/UPjnvopenmeet"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-200 transition duration-200"
@@ -36,7 +31,7 @@ const Footer = () => {
               <FaTwitter className="text-2xl" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/upstatenavodayaalumniopenmeet/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-200 transition duration-200"
@@ -44,12 +39,12 @@ const Footer = () => {
               <FaInstagram className="text-2xl" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.youtube.com/@UPStateNavodayaAlumniOpenMeet"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-200 transition duration-200"
             >
-              <FaLinkedinIn className="text-2xl" />
+              <FaYoutube className="text-2xl" />
             </a>
           </div>
         </div>
