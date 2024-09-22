@@ -16,12 +16,12 @@ export const EventAgenda = () => {
   ];
 
   return (
-    <section className="bg-green-100 text-gray-800 py-12 md:py-16">
+    <section className="bg-green-100 text-green-800 py-12 md:py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         {/* Header Section */}
         <div className="flex items-center justify-center mb-12 md:mb-24">
           {/* Small "Agenda" text */}
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-green-700">
             Agenda
           </h2>
           {/* Gradient Line (hidden on small screens) */}

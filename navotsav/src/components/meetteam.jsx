@@ -32,7 +32,7 @@ const MeetTeam = () => {
   return (
     <section className="bg-gradient-to-r from-orange-200 via-white to-green-200 antialiased py-8 md:py-16">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-        <h1 className="text-center text-4xl md:text-6xl font-bold text-gray-800 mb-8 md:mb-12">
+        <h1 className="text-center text-4xl md:text-6xl font-bold text-orange-500 mb-8 md:mb-12">
           Meet the Team
         </h1>
 

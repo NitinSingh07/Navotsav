@@ -2,7 +2,7 @@ import React from "react";
 
 const Payment = () => {
   return (
-    <section className="antialiased bg-orange-100 py-8">
+    <section className="antialiased  py-8">
       <div className="container mx-auto grid lg:grid-cols-12 lg:gap-8 lg:p-16 xl:gap-16 px-4 sm:px-6">
         {/* QR Code Section */}
         <div className="lg:col-span-5 flex flex-col items-center mb-8 lg:mb-0">
