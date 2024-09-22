@@ -29,7 +29,7 @@ const FeedbackForm = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-50 px-4 md:px-8 py-8">
+    <div className=" flex flex-col justify-center items-center bg-gray-50 px-4 md:px-8 py-8">
       {/* Feedback Title */}
       <h2 className="text-3xl  self-start ml-24 sm:text-4xl md:text-5xl lg:text-6xl mb-10 font-extrabold text-gray-900 text-center drop-shadow-lg">
         Feedback Form

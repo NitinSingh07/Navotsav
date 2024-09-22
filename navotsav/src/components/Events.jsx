@@ -10,10 +10,10 @@ export const EventDetails = () => {
           {/* Left Div: Text Details */}
           <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col justify-center text-center md:text-left">
             <div className="mb-12 space-y-4">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-700">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-700">
                 ABOUT THE MEET
               </h1>
-              <p className="text-blue-800 text-lg sm:text-xl">
+              <p className="text-blue-800 text-lg sm:text-xl lg:text-2xl">
                 Join us for a grand reunion, meet fellow alumni, and relive the
                 golden days!
               </p>
@@ -25,7 +25,7 @@ export const EventDetails = () => {
                 <div className="text-3xl sm:text-4xl text-blue-500 transition-transform duration-300 transform hover:scale-110">
                   <FaMapMarkedAlt />
                 </div>
-                <div className="text-xl sm:text-2xl text-gray-800">
+                <div className="text-lg sm:text-xl lg:text-2xl text-gray-800">
                   <span className="font-bold">Meerut Mandal</span>
                 </div>
               </div>
@@ -35,7 +35,7 @@ export const EventDetails = () => {
                 <div className="text-3xl sm:text-4xl text-blue-500 transition-transform duration-300 transform hover:scale-110">
                   <FaClock />
                 </div>
-                <div className="text-lg sm:text-xl text-gray-800">
+                <div className="text-lg sm:text-xl lg:text-2xl text-gray-800">
                   <span className="font-semibold">Time:</span> 09:00 AM - 5:00
                   PM
                 </div>
@@ -46,7 +46,7 @@ export const EventDetails = () => {
                 <div className="text-3xl sm:text-4xl text-blue-500 transition-transform duration-300 transform hover:scale-110">
                   <FaMapMarkerAlt />
                 </div>
-                <div className="text-lg sm:text-xl text-gray-800">
+                <div className="text-lg sm:text-xl lg:text-2xl text-gray-800">
                   <span className="font-semibold">Venue:</span> Gautam Buddha
                   University, Greater Noida (U.P.)
                 </div>
@@ -56,11 +56,11 @@ export const EventDetails = () => {
 
           {/* Right Div: Image Section */}
           <div className="md:w-1/2 flex justify-center items-center">
-            <div className="relative overflow-hidden rounded-full h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96">
+            <div className="relative overflow-hidden rounded-full h-52 w-52 sm:h-64 sm:w-64 md:h-80 md:w-80 lg:h-96 lg:w-96">
               <img
                 src="/event.jpg"
                 alt="Event"
-                className="w-full h-full object-cover border-2 rounded-full border-blue-600 "
+                className="w-full h-full object-cover border-2 rounded-full border-blue-600"
               />
             </div>
           </div>
