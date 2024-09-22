@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        times: ['"Crimson Text"', "serif"],
+        times: ['"Raleway"', "sans-serif"],
       },
       colors: {
         lightblue: {

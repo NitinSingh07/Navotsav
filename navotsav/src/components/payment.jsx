@@ -15,10 +15,10 @@ const Payment = () => {
 
         {/* Main Content Section */}
         <div className="lg:col-span-7 flex flex-col justify-center">
-          <h1 className="mb-3 text-2xl sm:text-3xl md:text-5xl font-bold leading-tight tracking-tight text-gray-900">
+          <h1 className="mb-3 text-2xl sm:text-3xl md:text-5xl text-center font-bold leading-tight tracking-tight text-gray-900">
             Support Our Cause Today
           </h1>
-          <p className="mb-6 text-gray-700 text-lg sm:text-xl">
+          <p className="mb-6 text-gray-700 text-center  text-lg sm:text-xl">
             Contribute to the Up State Alumni Meet and help us make a
             difference. Your donation will ensure the success of our initiatives
             and support the community. Thank you for your generosity!
